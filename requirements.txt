@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-groq
+neo4j
+
+langchain-neo4j
+datasets
+langchain_experimental
+py2neo
+
+langchain_openai
+
+bert_score
