@@ -1,6 +1,5 @@
 
-# this script is used later to return the esample_id of the 5% train examples used for building the database for
-# for the sake of valid querying
+# this script is used later to return the esample_id of the 5% train examples used for building the database for the sake of valid querying
 
 
 from neo4j import GraphDatabase
@@ -63,7 +62,7 @@ def list_graph_documents_by_example_ids(
 ) -> List[dict]:
     """
     List only documents whose 'example_id' is in the provided list.
-    Useful for inspecting the subset stored in your graph.
+    Useful for inspecting the subset stored in the graph.
     """
 
     driver = GraphDatabase.driver(uri, auth=(username, password))
