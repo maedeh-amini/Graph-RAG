@@ -1,0 +1,18 @@
+{
+  "summary_banner": "Overall Metric Pass Rates - AnswerRelevancy",
+  "hyperparameters": {
+    "model": "gpt-oss",
+    "temperature": 0,
+    "retrieval_k": 5,
+    "index_name": "chunk_vector_index",
+    "prompt_template": "Answer the question based only on the provided context:\n{context}\n\nQuestion: {question}\nAnswer:"
+  },
+  "overall_metrics": {
+    "overall_pass_rate": "93.04%",
+    "total_test_cases": 388,
+    "passed_test_cases": 361,
+    "failed_test_cases": 27,
+    "Answer Relevancy_pass_rate": "93.04%"
+  },
+  "detailed_results_path": "E:\\THSI\\Code\\Graph\\src\\results\\final_results.json"
+}

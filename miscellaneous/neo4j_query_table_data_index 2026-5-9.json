@@ -1,0 +1,86 @@
+[
+  {
+    "id": 3,
+    "name": "chunk_vector_index",
+    "state": "ONLINE",
+    "populationPercent": 100.0,
+    "type": "VECTOR",
+    "entityType": "NODE",
+    "labelsOrTypes": [
+      "Chunk"
+    ],
+    "properties": [
+      "embedding"
+    ],
+    "indexProvider": "vector-3.0",
+    "owningConstraint": null,
+    "lastRead": null,
+    "readCount": 0
+  },
+  {
+    "id": 2,
+    "name": "entity_vector_index",
+    "state": "ONLINE",
+    "populationPercent": 100.0,
+    "type": "VECTOR",
+    "entityType": "NODE",
+    "labelsOrTypes": [
+      "__Entity__"
+    ],
+    "properties": [
+      "embedding"
+    ],
+    "indexProvider": "vector-3.0",
+    "owningConstraint": null,
+    "lastRead": {
+      "year": 2026,
+      "month": 5,
+      "day": 9,
+      "hour": 13,
+      "minute": 4,
+      "second": 12,
+      "nanosecond": 490000000,
+      "timeZoneOffsetSeconds": 0,
+      "timeZoneId": null
+    },
+    "readCount": 484
+  },
+  {
+    "id": 1,
+    "name": "index_1b9dcc97",
+    "state": "ONLINE",
+    "populationPercent": 100.0,
+    "type": "LOOKUP",
+    "entityType": "RELATIONSHIP",
+    "labelsOrTypes": null,
+    "properties": null,
+    "indexProvider": "token-lookup-1.0",
+    "owningConstraint": null,
+    "lastRead": null,
+    "readCount": 0
+  },
+  {
+    "id": 0,
+    "name": "index_460996c0",
+    "state": "ONLINE",
+    "populationPercent": 100.0,
+    "type": "LOOKUP",
+    "entityType": "NODE",
+    "labelsOrTypes": null,
+    "properties": null,
+    "indexProvider": "token-lookup-1.0",
+    "owningConstraint": null,
+    "lastRead": {
+      "year": 2026,
+      "month": 5,
+      "day": 9,
+      "hour": 13,
+      "minute": 8,
+      "second": 42,
+      "nanosecond": 170000000,
+      "timeZoneOffsetSeconds": 0,
+      "timeZoneId": null
+    },
+    "readCount": 39690
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "summary_banner": "Overall Metric Pass Rates - Faithfulness",
+  "hyperparameters": {
+    "model": "gpt-oss",
+    "temperature": 0,
+    "retrieval_k": 5,
+    "index_name": "chunk_vector_index",
+    "prompt_template": "Answer the question based only on the provided context:\n{context}\n\nQuestion: {question}\nAnswer:"
+  },
+  "overall_metrics": {
+    "overall_pass_rate": "97.34%",
+    "total_test_cases": 338,
+    "passed_test_cases": 329,
+    "failed_test_cases": 9,
+    "Faithfulness_pass_rate": "97.34%"
+  },
+  "detailed_results_path": "E:\\THSI\\Code\\Graph\\src\\results\\final_results.json"
+}
+
+
+
+# "Batch 7 failed with 50 examples, you can add 50 to total cases and total passed cases"

@@ -1,0 +1,17 @@
+{
+  "summary_banner": "Overall Metric Pass Rates - ContextualRelevancy",
+  "hyperparameters": {
+    "model": "gpt-oss",
+    "temperature": 0,
+    "retrieval_k": 5,
+    "index_name": "chunk_vector_index",
+    "prompt_template": "Answer the question based only on the provided context:\n{context}\n\nQuestion: {question}\nAnswer:"
+  },
+  "overall_metrics": {
+    "overall_pass_rate": "0.00%",
+    "total_test_cases": 0,
+    "passed_test_cases": 0,
+    "failed_test_cases": 0
+  },
+  "detailed_results_path": "E:\\THSI\\Code\\Graph\\src\\results\\final_results.json"
+}
