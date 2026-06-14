@@ -271,9 +271,9 @@
 
 
 ##################################################################################################
-###### This is the version which works for contextual precision/ recall and answer relevancy #####
-#####       However for Faithfulness and Contextual Relevancy it crashes                     #####
-#####  It saves the summary and final results JSON files though                              #####
+###### This version works for contextual precision/ recall and answer relevancy              #####
+#####       for Faithfulness and Contextual Relevancy it crashes                             #####
+#####         It saves the summary and final results JSON files                              #####
 ##################################################################################################
 
 
